@@ -1,0 +1,11 @@
+<!--components/qm-com/qm-com.wxml-->
+<view class="active">儿砸</view>
+<slot name="slot1"></slot>
+<slot name="slot2"></slot>
+<!-- 父到子通信 -->
+<view>爸爸说：{{msg}}</view>
+<button bindtap="callFather" type="warn">
+	给老爸打电话
+</button>
+<view>{{num}}</view>
+<button type="primary" bindtap="changeHandle">change</button>

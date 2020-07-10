@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "qm-com":"../../components/qm-com/qm-com"
+  }
+}

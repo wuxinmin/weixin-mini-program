@@ -1,0 +1,10 @@
+<!-- 插值表达式 -->
+<view>{{msg}}</view>
+<!--绑定点击事件 bindtap  bindinput监听活动-->
+<input type="text" bindinput="changeMe"></input>
+<!-- 利用 data- 传值 -->
+<button bindtap="clickMe" data-val1="1" data-val2="2" data-test="qq">点击</button>
+
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="getUserInfo">获取用户信息</button>
+<button type="primary" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取用户手机号</button>
+<button open-type="contact" bindcontact="getContact">联系客服</button>

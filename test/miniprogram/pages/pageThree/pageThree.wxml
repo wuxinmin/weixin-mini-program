@@ -1,0 +1,10 @@
+<!--miniprogram/pages/pageThree/pageThree.wxml-->
+<view class="active">父亲</view>
+<block wx:if="{{isShow}}">
+	<!-- 不传 msg 就显示value的hahaha -->
+	<qm-com msg="lalala" bind:callFather="sonSay">
+		<!-- 不支持 -->
+		<view slot="slot2">加油</view>
+		<view slot="slot1">奥力给</view>
+	</qm-com>
+</block>

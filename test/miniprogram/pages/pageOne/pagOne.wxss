@@ -1,0 +1,16 @@
+/* miniprogram/pages/pageOne/pagOne.wxss */
+.box1{
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: burlywood;
+}
+.box3{
+  width: 100px;
+  height: 100px;
+  background-color: chartreuse;
+}

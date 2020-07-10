@@ -1,0 +1,4 @@
+/* miniprogram/pages/pageThree/pageThree.wxss */
+.active{
+  color: red;
+}

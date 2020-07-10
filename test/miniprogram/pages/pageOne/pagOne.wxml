@@ -1,0 +1,8 @@
+<!--miniprogram/pages/pageOne/pagOne.wxml-->
+<view>这是pagone页面</view>
+<!-- 事件冒泡  利用catchtap就可以阻止事件冒泡-->
+<view bindtap="handle1" class="box1">111
+	<view bindtap="handle2" class="box2">222
+		<view catchtap="handle3" class="box3">333</view>
+	</view>
+</view>

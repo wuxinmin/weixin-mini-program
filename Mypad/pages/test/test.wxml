@@ -1,0 +1,61 @@
+<!--pages/test/test.wxml-->
+<!--类似 div、p -->
+<view>
+	hello, view组件
+</view>
+<view>
+	world！
+</view>
+<!-- 类似span标签 -->
+<!-- selectable长按选中 -->
+<text selectable>你好</text>
+<text decode>组件&nbsp;你好</text>
+
+<!-- buttond的四个默认样式 -->
+<button>点击</button>
+<button type="primary">点击</button>
+<button type="default">点击</button>
+<button type="warn">警告</button>
+
+<!--点击submit触发bindsubmit事件 点击reset触发bindreset事件  -->
+<form bindsubmit="" bindreset="">
+	<button form-type="submit">submit提交</button>
+	<button form-type="reset">reset重置</button>
+</form>
+
+<button open-type="getUserInfo">getUserInfo获取用户信息</button>
+<button open-type="getPhoneNumber">getPhoneNumber</button>
+<button open-type="contact">contact客服会话</button>
+
+<!-- checkbox复选框 value赋上真实值-->
+<checkbox-group>
+	<checkbox value="1">Vue</checkbox>
+	<checkbox value="2">React</checkbox>
+</checkbox-group>
+<!-- radio单选框 要实现单选框要配合radio-group-->
+<radio-group>
+	<radio value="1">美女</radio>
+	<radio value="2">帅哥</radio>
+</radio-group>
+
+<!-- block 
+标签块：其本身不会被渲染到页面中，只有其内部的标签会被渲染 -->
+<block>
+	<view>logo</view>
+	<text style="margin-right:6px">首页</text>
+	<text style="margin-right:6px">物品</text>
+	<text style="margin-right:6px">购物车</text>
+	<text style="margin-right:6px">订单</text>
+</block>
+
+<!-- input 默认是一个文本输入框 -->
+<input type="text" value="请输入："></input>
+<input password></input>
+<input placeholder="请输入密码" type="password"></input>
+<!-- 手机端直接弹出数字键盘 -->
+<input type="number"></input>
+<input placeholder="请输入" placeholder-style="color:red" placeholder-class="ph-style"></input>
+<!-- disabled禁用 -->
+<input disabled></input> 
+<!-- maxlength限制长度 -->
+<input maxlength="10"></input>

@@ -1,0 +1,4 @@
+/* components/qm-com/qm-com.wxss */
+.active{
+  color: green;
+}
